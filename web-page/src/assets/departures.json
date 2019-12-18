@@ -1,0 +1,81 @@
+[
+    {
+        "city": "Bucharest (OTP)",
+        "flightNumber":"LO 641",
+        "terminal":"D-E",
+        "timeStamp": "2019-10-24T21:17:34.8983264+02:00",
+        "airline":"LOT",
+        "status":"Gate closed"
+
+    },
+
+    {
+        "city": "Kyiv-Boryspil (KBP)",
+        "flightNumber":"LO 751",
+        "terminal":"D-E",
+        "timeStamp": "2019-10-24T21:18:34.8983264+02:00",
+        "airline":"LOT",
+        "status":"Gate closed"
+
+    },
+    {
+        "city": "Brussels (BRU)",
+        "flightNumber":"SN 2554",
+        "terminal":"C",
+        "timeStamp": "2019-10-24T21:19:34.8983264+02:00",
+        "airline":"Brussels Airlines",
+        "status":"Gate closed"
+
+    },
+    {
+        "city": "Tallinn (TLL)",
+        "flightNumber":"LO 785",
+        "terminal":"D-E",
+        "timeStamp": "2019-10-24T21:20:34.8983264+02:00",
+        "airline":"LOT",
+        "status":"Departed"
+
+
+    },
+    {
+        "city": "Rome (FCO)",
+        "flightNumber":"AZ 491",
+        "terminal":"C",
+        "timeStamp": "2019-10-24T21:21:34.8983264+02:00",
+        "airline":"Alitalia",
+        "status":"Departed"
+
+
+    },
+    {
+        "city": "Belgrad (BEG)",
+        "flightNumber":"BT 5189",
+        "terminal":"D-E",
+        "timeStamp": "2019-10-24T21:22:34.8983264+02:00",
+        "airline":"Air Baltic",
+        "status":"Canceled"
+
+
+    },
+    {
+        "city": "London-Luton (LTN)",
+        "flightNumber":"W6 1305",
+        "terminal":"A",
+        "timeStamp": "2019-10-24T21:23:34.8983264+02:00",
+        "airline":"Wizz Air",
+        "status":"Canceled"
+
+
+    },
+    {
+        "city": "Oslo (OSL)",
+        "flightNumber":"DY 1021",
+        "terminal":"A",
+        "timeStamp": "2019-10-24T21:24:34.8983264+02:00",
+        "airline":"Norwegian",
+        "status":"Departed"
+
+
+    }
+
+]

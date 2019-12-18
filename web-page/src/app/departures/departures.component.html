@@ -1,0 +1,47 @@
+<div
+    style="background-image:
+           url('https://www.elsetge.cat/myimg/f/54-548721_wallpaper-airplane-sky-flight-clouds-height-airplane-hd.jpg');
+    width:100%;
+    height:200px;
+    background-size: cover;
+    background-position:center;"></div>
+<div class="container">
+  <button id="goToCreate" routerLink="/create"> Create new departure</button>
+
+<div>
+  Search:
+  <input [(ngModel)] = "searchByFlightTo"
+  placeholder="Search by Flight to "/>
+</div>
+<br>
+  <table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+      <tr >
+        <th scope="col">Flight To</th>
+        <th scope="col">Flight NO.</th>
+        <th scope="col">Airlines</th>
+        <th scope="col">Terminal</th>
+        <th scope="col"> Date and Time</th>
+        <th scope="col"> Change Status</th>
+
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let data of departures |filterByFlightTo: searchByFlightTo" >
+        <td>{{data.city}}</td>
+        <td>{{data.flightNumber}}</td>
+        <td>{{data.airline}}</td>
+        <td>{{data.terminal}}</td>
+        <td>{{data.timeStamp | date:'short'}}</td>
+        <td>
+          <select >
+            <option *ngFor="let op of operations" value={{op.title}} [selected]="op.title === data.status">
+              {{op.title}}
+            </option>
+          </select>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
